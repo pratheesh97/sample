@@ -1,0 +1,54 @@
+{
+      "title" : "Mr",
+      "fullname" : "avinash",
+      "birthDate" : 120696,
+      "pan" : "fjefehfs",
+      "aadhaar" : 2264824621,
+      "address1" : "keel",
+      "address2" : "keel1",
+      "landmark" : "hfc",
+      "city" : "chn",
+      "state" : "tn",
+      "pincode" : 600117,
+      "email" : "avi@gmail.com",
+      "phoneNumber" : 8056270558,
+      "alternatenumber" : 7348973484,
+      "insurance_detail" : 456452362,
+      "insurance_name" : "new company",
+      "car_details" : "innova",
+      "bike_details" : "suzuki",
+      "businessName" : "emo",
+      "gst" : "vdwtava5r6d"
+    }
+
+
+{
+	"title" : "Mr",
+	"fullname" : "avinash",
+	"birthDate" : 120696,
+	"pan" : "fjefehfs",
+	"aadhaar" : 2264824621,
+	"address1" : "keel",
+	"address2" : "keel1",
+	"landmark" : "hfc",
+	"city" : "chn",
+	"state" : "tn",
+	"pincode" : 600117,
+	"email" : "prathesh@gmail.com",
+	"phoneNumber" : 8056270558,
+	"alternatenumber" : 7348973484,
+	"insurance_detail" : 456452362,
+	"insurance_name" : "new company",
+	"car_details" : "innova",
+	"bike_details" : "suzuki",
+	"formOneArr": [
+	  {
+	  	"businessName" : "avinash earth movers",
+	    "gst" : "vdwtava5r6d"
+	  },
+	  {
+	    "businessName" : "avinash jcb works",
+	    "gst" : "jhsjhv6493"
+	  }
+	]
+}
