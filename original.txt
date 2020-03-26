@@ -1,0 +1,44 @@
+ <div class="themeContentBorderBox">
+                                        <div class="themeContentBorderBoxInner" >
+                                            <h5 class="formSectionTitle">Business Information</h5>
+                                    <div class="themeContentBorderBox" formArrayName="addmore" *ngFor="let ads of registerForm.get('addmore')['controls']; let i=index;">
+                                        <div class="themeContentBorderBoxInner" [formGroupName]="i">
+                                            <!-- <h5 class="formSectionTitle">Business Information</h5> -->
+                                            <div class="row formRow">
+                                                <div class="col-md-4">
+                                                    <mat-form-field class="themeMatFormField themeMatFormFieldFit">
+                                                        <mat-label>Business / Group Name</mat-label>
+                                                        <input matInput placeholder="" value=""
+                                                            formControlName="businessname"  maxlength=""/>
+                                                            <!-- <mat-error *ngIf="registerForm.get('businessname').hasError('required')">The value is required</mat-error>  -->
+                                                    </mat-form-field>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <mat-form-field class="themeMatFormField themeMatFormFieldFit">
+                                                        <mat-label>GST Number</mat-label>
+                                                        <input matInput placeholder="" value="" formControlName="gst"
+                                                             maxlength=""  />
+                                                            <!-- <mat-error *ngIf="registerForm.get('gst').hasError('required')">The value is required</mat-error> -->
+                                                            <!-- <mat-error *ngIf="registerForm.get('gst').hasError('pattern')">Please enter valid GST number</mat-error>   -->
+                                                    </mat-form-field>
+                                                </div>
+                                                <div class="col-mt-4">
+                                                    <button class="mat-stroked-button mat-warn" >Delete</button>
+                                                    <!-- <button  (click)="RemoveFunc(i)" class="btn btn-danger">Delete Button</button -->
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row formRow">
+                                        <div class="col-md-12">
+                                            <button mat-stroked-button  
+                                                class="themeMatButton themeMatButtonSm mat-primary mr-3"
+                                                title="Add Business">Add Business</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    
+                                    </div>.......................................
+                    
